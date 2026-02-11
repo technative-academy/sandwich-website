@@ -24,7 +24,10 @@ class Ask {
     if (!this.askContainer) return;
     this.askInput.addEventListener("input", (e) => this.checkInput(e));
     this.exampleButton.addEventListener("click", (e) => this.setExample(e));
-    this.askButton.addEventListener("click", (e) => this.askClicked(e));
+    this.askButton.addEventListener("click", (e) => {
+      this.resultsList.replaceChildren(); /* clear results */
+      this.askClicked(e); 
+    });
     this.showMoreButton.addEventListener("click", (e) => this.askClicked(e));
     this.resetButton.addEventListener("click", (e) => this.resetClicked(e));
     this.checkInput();
