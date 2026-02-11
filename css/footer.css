@@ -1,5 +1,5 @@
 .site-footer {
-  background-color: #0f1a20;
+  background-color: var(--colour-primary);
   color: #ffffff;
   margin-top: 80px;
   padding-top: 60px;
@@ -42,7 +42,7 @@
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;
   justify-content: space-between;
   align-items: center;
