@@ -41,7 +41,7 @@
   filter: brightness(0) saturate(100%) invert(92%) sepia(11%) saturate(188%)
     hue-rotate(2deg) brightness(96%) contrast(92%);
 
-  width: 260px; /* your chosen size */
+  width: 160px; /* your chosen size */
   height: auto;
   display: block;
 }
